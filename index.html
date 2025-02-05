@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/standart.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/logos/logo.jpeg">
+    <script src="./script/object.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/template.js"></script>
+    <title>Bestell App</title>
+</head>
+<body onload="renderMainCourses()">
+    <div class="order_success d_none" id="order_success_overlay" onclick="closeOrderOverlay()">
+        <div class="order_success_overlay" onclick="stopPropagation(event);">
+            <h3>Bestellung erfolgreich</h3>
+            <img src="./img/icons/plus_black.png" alt="" onclick="closeOrderOverlay()">
+        </div>
+    </div>
+    <header>
+        <a href="#"><img src="./img/logos/Logo.png" alt=""></a>
+    </header>
+    <div class="push_basket_note d_none" id="push_basket_note">
+        Wurde zum Warenkorb hinzugefügt!
+    </div>
+    <div class="main_container">
+        <div class="section_left" id="section_left">
+            <img src="./img/img/toribox.jpeg" class="main_img" alt="">
+            <div class="restaurant">
+                <img src="./img/logos/logo.jpeg" alt="">
+                <h1 class="oswald">ToriBox 鳥</h1>
+                <p>Bewertung (4,8 von 5 Sterne)</p>
+            </div>
+            <div class="menu">
+                <img src="./img/icons/arrow.png" alt="">
+                <a href="#mainCourse"><p class="menu_food_type">Hauptgerichte</p></a>
+                <a href="#supplements_section"><p class="menu_food_type">Beilagen</p></a>
+                <a href="#drinks_section"><p class="menu_food_type">Getränke</p></a>
+            </div>
+            <div class="main_course" id="mainCourse">
+                <img src="./img/img/main_meal.jpeg" alt="">
+                <h2>Hauptgerichte</h2>
+            </div>
+            <div class="main_course_menu" id="main_course">
+            </div>
+            <div class="main_course" id="supplements_section">
+                <img src="./img/img/supplements.jpeg" alt="">
+                <h2>Beilagen</h2>
+            </div>
+            <div class="main_course_menu" id="supplements">
+            </div>
+            <div class="main_course" id="drinks_section">
+                <img src="./img/img/drinks.jpeg" alt="">
+                <h2>Getränke</h2>
+            </div>
+            <div class="main_course_menu" id="drinks">
+            </div>
+        </div>
+        <div class="section_right" id="section_right">
+            <div class="sticky_basket">
+                <h2>Warenkorb</h2>
+                <hr>
+                <div class="basket" id="basket">
+                </div>
+                <hr>
+                <div id="empty_basket_section"></div>
+                <!-- <input type="checkbox" id="switch" name="switch" onclick="toggleShipmentPrice()">
+                <label for="switch">
+                    <div class="shipment">
+                        <p>Liefern</p>
+                        <p class="shipment_description">Kostenlos ab 20€</p>
+                    </div>
+                    <div class="shipment">
+                        <p>Abholen</p>
+                        <p class="shipment_description">Kostenlos</p>
+                    </div>
+                </label> -->
+                <div class="order_section" id="order_section">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#"><img src="./img/logos/Logo.png" alt=""></a>
+        <hr>
+        <div class="social_media">
+            <a href="https://www.instagram.com/" target="_blank"><img src="./img/logos/instagram.png" alt=""></a>
+            <a href="https://www.x.com/" target="_blank"><img src="./img/logos/twitter.png" alt=""></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./img/logos/facebook.png" alt=""></a>
+        </div>
+        <button class="resp_menu" onclick="toggleRespMenu()" id="open_basket">
+            <div class="resp_menu_counter">
+                <img src="./img/icons/basket.png" alt="">
+                <p>0</p>
+            </div>
+            <p>Zum Warenkorb</p>
+            <p>0€</p>
+        </button>
+    </footer>
+</body>
+</html>

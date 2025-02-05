@@ -1,0 +1,435 @@
+@media(max-width: 1580px){
+
+    .section_right{
+        width: 30%;
+    }
+
+    .width_section_left{
+        width: 70% !important;
+    }
+
+    .shipment p{
+        font-size: 14px ;
+    }
+    
+    .shipment_description{
+        font-weight: 300 !important;
+        font-size: 10px !important;
+    }
+}
+
+@media(max-width: 1250px){
+    .section_right h2{
+        font-size: 24px;
+    }
+    
+    .basket{
+        h3{
+            font-size: 16px;
+        }
+
+        p{
+            font-size: 14px;
+        }
+
+        img{
+            width: 16px;
+        }
+    }
+
+    td{
+        font-size: 14px;
+    }
+
+    .empty_basket img{    
+        width: auto;
+    }
+}
+
+@media(max-width: 1150px){
+    header{
+        height: 120px;
+
+        img{
+            width: 120px;
+            margin-left: 32px;
+        }
+    
+        button{
+            margin-right: 32px;
+    
+            img{
+                width: 32px;
+            }
+        }
+    }
+
+    .main_img{
+        height: 240px;
+    }
+
+    .restaurant{
+        margin: 32px;
+
+        p{
+            font-size: 16px;
+        }
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    .menu{
+        padding: 16px 32px;
+
+        img{
+            width: 24px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .main_course{
+        margin: 0 32px;
+        
+        img{
+            height: 120px;
+        }
+    
+        h2{
+            margin-left: 8px;
+            font-size: 24px;
+        }
+    }
+
+    .main_course_menu{
+        margin: 24px 32px;
+        }
+
+    .dishes{
+        height: 120px;
+        padding: 0 8px;
+    
+        h3{
+            font-size: 20px;
+        }
+    
+        p{
+            font-size: 16px;
+        }
+    
+        span{
+            font-size: 16px;
+        }
+    
+        img{
+            width: 24px;
+        }
+                
+        .allergens{
+            font-size: 12px;
+        }
+    }
+
+    h5{
+        font-size: 12px;
+    }
+
+    footer{
+        gap: 16px;
+        padding: 16px 0;
+    
+        img{
+            width: 160px;
+            cursor: pointer;
+        }
+    
+        hr{
+            width: 60%;
+            height: 2px;
+        }
+
+        .social_media{
+            gap: 64px;
+        
+            img{
+                width: 32px;
+            }
+        }
+    }
+}
+
+@media(max-width: 920px){
+    .shipment_description{
+        display: none;
+    }
+}
+
+@media(max-width: 740px){
+
+    .order_success_overlay{
+        width: 320px;
+        height: 120px;
+    
+        h3{
+            font-size: 16px;
+        }
+
+        img{
+            width: 24px;
+        }
+    }
+
+    .section_right{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: none;
+    
+        h2{
+            font-size: 32px;
+        }
+    }
+
+    .menu{
+        gap: 16px;
+    }
+
+    .menu p{
+        font-size: 14px;
+    }
+
+    .menu img{
+        width: 20px;
+        height: auto;
+    }
+    
+    .basket{
+        gap: 64px;
+        max-height: calc(100vh - 533px);
+        min-height: calc(100vh - 533px);
+    }
+    
+    .basket_dishes{
+        margin: 0 64px;
+    }
+
+    .price_bar{    
+        p{
+            font-size: 18px;
+        }
+    }
+
+    table{
+        padding: 0 64px;
+        margin-top: 8px;
+    }
+
+    .section_left{
+        width: 100%;
+    }
+
+    label {
+        width: 80%;
+    }
+
+    .shipment p{
+        font-size: 16px;
+    }
+    
+    .shipment_description{
+        display: block;
+        font-size: 12px !important;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+
+    footer{
+        gap: 0;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+
+        a{
+            display: none;
+        }
+
+        hr{
+            display: none;
+        }
+
+        button p{
+            font-size: 20px;
+        }
+    }
+
+    .resp_menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .resp_menu img{
+        height: 32px;
+        width: auto;
+    }
+}
+
+@media(max-width: 450px){
+    header{
+        height: 104px;
+
+        img{
+            width: 104px;
+            margin-left: 16px;
+        }
+
+        button{
+            margin-right: 16px;
+
+            img{
+                width: 24px;
+            }
+        }
+    }
+
+    .order_success_overlay{
+        width: 240px;
+        height: 120px;
+    
+        h3{
+            font-size: 14px;
+        }
+    
+        img{
+            width: 24px;
+        }
+    }
+
+    .main_img{
+        height: 120px;
+    }
+
+    .restaurant{
+        margin: 16px;
+
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .restaurant img{
+        width: 40px;
+    }
+    
+
+    h1{
+        font-size: 32px;
+    }
+
+    .menu{
+        padding: 8px 16px;
+        gap: 10px;
+
+        p{
+            font-size: 13px;
+        }
+
+        img{
+            width: 14px;
+        }
+    }
+
+    .main_course{
+        margin: 0 16px;
+        
+        img{
+            height: 80px;
+        }
+    
+        h2{
+            font-size: 20px;
+        }
+    }
+
+    .main_course_menu{
+        margin: 24px 16px;
+    }
+
+    .dishes{
+        height: 80px;
+    
+        h3{
+            font-size: 16px;
+        }
+    
+        p{
+            font-size: 12px;
+        }
+    
+        span{
+            font-size: 12px;
+        }
+    
+        img{
+            width: 16px;
+        }
+
+                
+        .allergens{
+            font-size: 10px;
+        }
+    }
+
+    .section_right h2{
+        font-size: 24px;
+    }
+
+    .basket{
+        gap: 32px;
+        max-height: calc(100vh - 506px);
+        min-height: calc(100vh - 506px);
+    }
+    
+    .basket_dishes{
+        margin: 0 32px;
+    }
+
+    label {
+        height: 48px;
+    }
+    
+    label::after {
+        height: 40px;
+    }
+
+    .shipment p{
+        font-size: 14px;
+    }
+    
+    .shipment_description{
+        display: block;
+        font-size: 10px !important;
+    }
+
+    table{
+        padding: 0 32px;
+    }
+
+    footer{
+        button p{
+            font-size: 14px;
+        }
+    }
+
+    .resp_menu img{
+        width: 20px;
+        height: auto;
+    }
+}
